@@ -86,11 +86,11 @@ function addVerb(otherVerb) {
 if (theVerb1 === 'let'){
     let theVerb3 = addVerb(theVerb1);
     // modify the noun1
-    theNoun1 *= ` ${theVerb3}`
+    theNoun1 += ` ${theVerb3}`
 } else if (theVerb2 === 'let') {
     let theVerb3 = addVerb(theVerb2);
     // modify the noun1
-    theNoun2 *= ` ${theVerb3}`
+    theNoun2 += ` ${theVerb3}`
 }
     
 
