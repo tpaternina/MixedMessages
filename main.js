@@ -90,7 +90,7 @@ if (theVerb1 === 'let'){
 } else if (theVerb2 === 'let') {
     let theVerb3 = addVerb(theVerb2);
     // modify the noun1
-    theNoun2 += ` ${theVerb3}`
+    theNoun2 = ` ${theVerb3}`
 }
     
 
